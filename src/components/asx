@@ -1,0 +1,82 @@
+ <Modal.Content image>
+        <Image size="medium" src={`${props.job.company_logo}`} wrapped />
+        <Modal.Description>
+          <Row>
+            <Col>
+              <Card>
+                <Card.Content>
+                  <Card.Header>Company URL</Card.Header>
+
+                  <Card.Description>{props.job.company_url}</Card.Description>
+                </Card.Content>
+              </Card>
+            </Col>
+          </Row>
+          <Row className="mt-4">
+            <Col>
+              <Card>
+                <Card.Content>
+                  <Card.Header>Created</Card.Header>
+
+                  <Card.Description>{props.job.created_at}</Card.Description>
+                </Card.Content>
+              </Card>
+            </Col>
+          </Row>
+          <Row className="mt-4">
+            <Col>
+              <Card>
+                <Card.Content>
+                  <Card.Header>Title</Card.Header>
+
+                  <Card.Description>{props.job.title}</Card.Description>
+                </Card.Content>
+              </Card>
+            </Col>
+          </Row>
+          <Row className="mt-4">
+            <Col>
+              <Card>
+                <Card.Content>
+                  <Card.Header>Type</Card.Header>
+
+                  <Card.Description>{props.job.type}</Card.Description>
+                </Card.Content>
+              </Card>
+            </Col>
+          </Row>
+          <Row className="mt-4">
+            <Col>
+              <Card>
+                <Card.Content>
+                  <Card.Header>Location</Card.Header>
+
+                  <Card.Description>{props.job.location}</Card.Description>
+                </Card.Content>
+              </Card>
+            </Col>
+          </Row>
+          <Row className="mt-4">
+            <Col>
+              <Card>
+                <Card.Content>
+                  <Card.Header>Official Job URL</Card.Header>
+
+                  <Card.Description>{props.job.url}</Card.Description>
+                </Card.Content>
+              </Card>
+            </Col>
+          </Row>
+          <Row className="mt-4">
+            <Col>
+              <Card>
+                <Card.Content>
+                  <Card.Header>Description</Card.Header>
+
+                  <Card.Description>{props.job.description}</Card.Description>
+                </Card.Content>
+              </Card>
+            </Col>
+          </Row>
+        </Modal.Description>
+      </Modal.Content>
